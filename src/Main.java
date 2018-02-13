@@ -15,6 +15,7 @@ public class Main {
             char c = s.charAt(i);
             double d = digits.indexOf(c);
             hexaAnswer = 16 * hexaAnswer + d;
+            //Added comment
         }
         System.out.println("Your number is " + String.format("%.0f", hexaAnswer) + " in decimal");
 
